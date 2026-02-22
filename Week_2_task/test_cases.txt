@@ -1,0 +1,109 @@
+STUDENT GRADE CALCULATOR - TEST CASES
+=====================================
+
+Grading Logic:
+A: 90-100
+B: 80-89
+C: 70-79
+D: 60-69
+F: 0-59
+
+-------------------------------------
+VALID INPUT TEST CASES
+-------------------------------------
+
+Test Case 1:
+Input:
+Name: Priya
+Marks: 95
+Expected Output:
+Grade: A
+Message: Excellent, you have done a great job.🎉
+
+Test Case 2:
+Input:
+Name: Rahul
+Marks: 85
+Expected Output:
+Grade: B
+Message: Very Good, Keep it up! 👍
+
+Test Case 3:
+Input:
+Name: Sneha
+Marks: 72
+Expected Output:
+Grade: C
+Message:  Nice Work, But you can aim heigher 🙂
+
+Test Case 4:
+Input:
+Name: Amit
+Marks: 64
+Expected Output:
+Grade: D
+Message: You passed, keep working hard. 📚
+
+Test Case 5:
+Input:
+Name: Karan
+Marks: 45
+Expected Output:
+Grade: F
+Message: Don't give up! Try Again and improve🔁
+
+-------------------------------------
+BOUNDARY TEST CASES
+-------------------------------------
+
+Test Case 6:
+Input:
+Marks: 90
+Expected Grade: A
+
+Test Case 7:
+Input:
+Marks: 89
+Expected Grade: B
+
+Test Case 8:
+Input:
+Marks: 80
+Expected Grade: B
+
+Test Case 9:
+Input:
+Marks: 79
+Expected Grade: C
+
+Test Case 10:
+Input:
+Marks: 60
+Expected Grade: D
+
+Test Case 11:
+Input:
+Marks: 59
+Expected Grade: F
+
+-------------------------------------
+INVALID INPUT TEST CASES
+-------------------------------------
+
+Test Case 12:
+Input:
+Marks: -5
+Expected Output:
+❌, Invalid Marks range, Marks should be between 0 and 100.
+
+Test Case 13:
+Input:
+Marks: 105
+Expected Output:
+❌, Invalid Marks range, Marks should be between 0 and 100.
+
+Test Case 14:
+Input:
+Marks: abc
+Expected Output:
+❌,Invalid Input, Only numeric values are allowed
